@@ -11,3 +11,7 @@ Available commands:
 
 - ```stats``` - see your cuurent health and damage
 - ```heal``` - heal yourself(you'll have to choose your potion from your backpack.
+- ```talk``` - talk to an enemy
+- ```north```, ```south```, ```east```, ```west``` - navigation through rooms
+- ```take``` - take an item
+- ```fight``` - fight an enemy
