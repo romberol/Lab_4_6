@@ -100,7 +100,7 @@ kithcen.set_item(normal_sword)
 
 bedroom = game.Room("Bedroom")
 bedroom.set_description("Seems like someone dangerous was sleeping there.") 
-boss = game.Special_enemy("Cactus", "Really? How can they even sleep?", min_max=(8, 10))
+boss = game.Special_enemy("Cactus(boss)", "Really? How can they even sleep?", min_max=(8, 10))
 boss.set_weakness("underground")
 boss.set_conversation("Can you pat my spikes, please?")
 bedroom.set_character(boss)
