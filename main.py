@@ -28,8 +28,8 @@ shark = game.Special_enemy("Peacefull shark", "To be honest, not really peaceful
 shark.set_weakness("underwater")
 shark.set_conversation("Don't you have some water? I'm really thirsty!")
 right_corridor.set_character(shark)
-small_aid = game.Heal("Pink poision", 5, "heal")
-small_aid.set_description("Pink poistion, that will heal your health by 5.")
+small_aid = game.Heal("Pink potion", 5, "heal")
+small_aid.set_description("Pink potion, that will heal your health by 5.")
 right_corridor.set_item(small_aid)
 
 left_tower = game.Room("Left tower")
@@ -56,8 +56,8 @@ right_tower.set_item(normal_sword)
 
 storehouse = game.Room("Storehouse")
 storehouse.set_description("Unexpected storehouse with barely open door. Something stange is happening inside.")
-aid = game.Heal("Red poision", 5, "increase max health")
-aid.set_description("Red poision, that will increase your max health by 5.")
+aid = game.Heal("Red potion", 5, "increase max health")
+aid.set_description("Red potion, that will increase your max health by 5.")
 storehouse.set_item(aid)
 
 basement = game.Room("Basement")
